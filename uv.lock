@@ -333,5 +333,13 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/61/14/33a3a1352cfa71812a3a21e8c9bfb83f60b0011f5e36f2b1399d51928209/uvicorn-0.34.0-py3-none-any.whl", hash = "sha256:023dc038422502fa28a09c7a30bf2b6991512da7dcdb8fd35fe57cfc154126f4", size = 62315 },
 ]
 
+[[package]]
+name = "word-counter"
+version = "0.1.2"
+source = { virtual = "." }
+dependencies = [
+    { name = "mcp", extra = ["cli"] },
+]
+
 [package.metadata]
-requires-dist = [{ name = "mcp", extras = ["cli"], specifier = ">=1.4.1" }]
+requires-dist = [{ name = "mcp", extras = ["cli"], specifier = ">=1.0.0" }]
