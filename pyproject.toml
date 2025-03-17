@@ -1,0 +1,11 @@
+[project]
+name = "word-counter"
+version = "0.1.2"
+description = "MCP Server for counting words."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.0.0",]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
